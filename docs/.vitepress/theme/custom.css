@@ -1,0 +1,21 @@
+:root {
+  --vp-c-brand-1: #42b883;
+  --vp-c-brand-2: #369f6e;
+  --vp-c-brand-3: #2f855a;
+  --vp-c-brand-soft: rgba(66, 184, 131, 0.14);
+}
+
+/* 首页 Hero 区域稍微调一下 */
+.VPHero .name {
+  font-weight: 700;
+}
+
+/* 代码块圆角 */
+.vp-doc div[class*='language-'] {
+  border-radius: 10px;
+}
+
+/* 自定义提示框颜色，可选 */
+.custom-block.tip {
+  border-color: #42b883;
+}
