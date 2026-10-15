@@ -51,6 +51,14 @@ features:
     <p>基于 Selenium 实现网页自动化，模拟真实用户观看行为。支持调节播放倍速（最高 16 倍速），并可自主设定开始与结束刷课的时间。</p>
   </div>
   <div class="custom-home-feature-card">
+    <h3>🛡️ 跳过人脸与全能自动化</h3>
+    <p>所有需要人脸认证的环节均可自动跳过，无需手动操作。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。</p>
+  </div>
+  <div class="custom-home-feature-card">
+    <h3>📍 自动签到</h3>
+    <p>支持在任意地点完成定位签到和普通签到，无需手动操作，打破地理限制，方便快捷。</p>
+  </div>
+  <div class="custom-home-feature-card">
     <h3>🔗 连续刷多门课程</h3>
     <p>支持最多连续刷 3 门课程，一门课程刷完后无需手动切换下一科，全程自动操作，节省你的时间。</p>
   </div>
@@ -63,26 +71,13 @@ features:
     <p>已支持使用 DeepSeek 进行搜题。同时支持自动做作业，只需在设置中配置好 DeepSeek API 密钥，即可自动完成作业。</p>
   </div>
   <div class="custom-home-feature-card">
-    <h3>🛡️ 跳过人脸与全能自动化</h3>
-    <p>所有需要人脸认证的环节均可自动跳过，无需手动操作。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。</p>
-  </div>
-  <div class="custom-home-feature-card">
     <h3>📊 进度查看与可视化控制</h3>
     <p>主页点击“刷课记录”即可实时查看课程学习进度。借助 customtkinter 搭建可视化窗口，用于控制程序运行和显示输出信息。</p>
   </div>
-  <div class="custom-home-feature-card">
-    <h3>⚙️ 底层辅助与更新</h3>
-    <p>利用 pyautogui 实现鼠标键盘自动操作，requests 检测项目更新，colorama 实现终端彩色输出效果，全方位辅助程序稳定运行。</p>
-  </div>
-</div>
 
-## 📥 下载方式
+## 下载方式
 
 <div class="custom-home-download-grid">
-  <a href="https://github.com/Mortal004/Xuexitong_shuake/releases/" target="_blank" class="custom-home-download-btn github">
-    <span class="icon">🐙</span>
-    <span class="text">GitHub Releases</span>
-  </a>
   <a href="https://pan.quark.cn/s/bbcc17bcce22" target="_blank" class="custom-home-download-btn quark">
     <span class="icon">☁️</span>
     <span class="text">夸克网盘</span>
