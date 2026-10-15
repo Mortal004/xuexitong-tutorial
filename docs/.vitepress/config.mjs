@@ -60,7 +60,7 @@ export default defineConfig({
       { text: '报错处理', link: '/guide/faq' },
       {
         text: '下载脚本',
-        link: '/#下载方式',
+        link: '/#download',
         activeMatch: '^/$'
       }
     ],

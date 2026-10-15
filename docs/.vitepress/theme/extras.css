@@ -8,6 +8,8 @@
    -------------------------------------------------------------------------- */
 .custom-home .home-section {
   margin: 64px 0;
+  /* 供导航栏「下载脚本」跳转使用，避免标题被固定导航栏遮住 */
+  scroll-margin-top: 90px;
 }
 
 .custom-home .home-section__head {

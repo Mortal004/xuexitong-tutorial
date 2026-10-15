@@ -62,7 +62,7 @@ titleTemplate: 刷课脚本使用教程
 </div>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="download">
 
 <div class="home-section__head">
   <span class="home-section__icon">⬇️</span>
