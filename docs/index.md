@@ -74,6 +74,7 @@ features:
     <h3>📊 进度查看与可视化控制</h3>
     <p>主页点击“刷课记录”即可实时查看课程学习进度。借助 customtkinter 搭建可视化窗口，用于控制程序运行和显示输出信息。</p>
   </div>
+</div>
 
 ## 下载方式
 
@@ -95,6 +96,8 @@ features:
 - 程序弹窗报错，请看 [报错了该怎么办](/guide/faq)
 - 想升级版本，请看 [更新](/guide/update)
 - 使用前请阅读 [声明](/guide/statement)
+
+<VisitorCounter />
 
 <style>
 /* 功能卡片网格布局 */

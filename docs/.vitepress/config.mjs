@@ -9,7 +9,9 @@ export default defineConfig({
   base: '/xuexitong-tutorial/',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
-    ['meta', { name: 'theme-color', content: '#42b883' }]
+    ['meta', { name: 'theme-color', content: '#42b883' }],
+    ['script', { async: true, src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }]
+
   ],
 
   markdown: {
