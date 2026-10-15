@@ -1,179 +1,198 @@
 ---
 layout: home
-
-hero:
-  name: "用户须知"
-  text: "刷课脚本使用教程"
-  tagline: "基于 Python 的自动化学习辅助工具 · 使用说明文档"
-  actions:
-    - theme: brand
-      text: 开始阅读
-      link: /guide/preface
-    - theme: alt
-      text: 使用教程
-      link: /guide/usage
-    - theme: alt
-      text: GitHub 项目
-      link: https://github.com/Mortal004/Xuexitong_shuake
-
-features:
-  - icon: 📖
-    title: 使用教程
-    details: 从启动程序、界面设置、账号信息到自动刷课，一步步说明。
-    link: /guide/usage
-  - icon: 🧩
-    title: 驱动安装
-    details: Edge / Chrome 驱动下载与配置方法，解决浏览器相关报错。
-    link: /guide/driver
-  - icon: ❓
-    title: 报错处理
-    details: 常见弹窗与提示的处理思路，四种方法逐一排查。
-    link: /guide/faq
-  - icon: 🚀
-    title: 更新方式
-    details: GitHub Releases、夸克网盘、迅雷网盘与脚本内检查更新。
-    link: /guide/update
-  - icon: 📢
-    title: 使用声明
-    details: 仅供个人学习交流，使用后果自负，请遵守学校相关规定。
-    link: /guide/statement
-  - icon: 💬
-    title: 反馈建议
-    details: 通过发送邮件至邮箱：`2022865286@qq.com`，提交你的建议。
-    link: /guide/conclusion
+title: 首页
+titleTemplate: 刷课脚本使用教程
 ---
 
-## ✨ 核心功能一览
+<div class="custom-home">
 
-<div class="custom-home-feature-grid">
-  <div class="custom-home-feature-card">
-    <h3>⏰ 定时自动刷课</h3>
-    <p>基于 Selenium 实现网页自动化，模拟真实用户观看行为。支持调节播放倍速（最高 16 倍速），并可自主设定开始与结束刷课的时间。</p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>🛡️ 跳过人脸与全能自动化</h3>
-    <p>所有需要人脸认证的环节均可自动跳过，无需手动操作。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。</p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>📍 自动签到</h3>
-    <p>支持在任意地点完成定位签到和普通签到，无需手动操作，打破地理限制，方便快捷。</p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>🔗 连续刷多门课程</h3>
-    <p>支持最多连续刷 3 门课程，一门课程刷完后无需手动切换下一科，全程自动操作，节省你的时间。</p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>🖥️ 同时刷多门课程</h3>
-    <p>支持最多同时刷一个账号下的 3 门课程，只需在设置中打开“多端学习”。<span class="custom-home-warning">⚠️ 除非特别紧急，一般不建议开启。</span></p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>🧠 智能刷题与作业</h3>
-    <p>已支持使用 DeepSeek 进行搜题。同时支持自动做作业，只需在设置中配置好 DeepSeek API 密钥，即可自动完成作业。</p>
-  </div>
-  <div class="custom-home-feature-card">
-    <h3>📊 进度查看与可视化控制</h3>
-    <p>主页点击“刷课记录”即可实时查看课程学习进度。借助 customtkinter 搭建可视化窗口，用于控制程序运行和显示输出信息。</p>
+<HomeHero
+  badge="基于 Python + Selenium 的学习通自动化辅助"
+  title="刷课脚本使用教程"
+  subtitle="把重复的刷课流程交给程序，把时间留给真正值得投入的学习。"
+  tagline="从启动程序、配置驱动到报错排查，一份写给非技术用户的完整中文文档。"
+  :actions="[
+    { text: '开始阅读', link: '/guide/preface', theme: 'brand' },
+    { text: '使用教程', link: '/guide/usage', theme: 'alt' },
+    { text: '解决报错', link: '/guide/faq', theme: 'alt' },
+    { text: 'GitHub 项目', link: 'https://github.com/Mortal004/Xuexitong_shuake', theme: 'sponsor' }
+  ]"
+/>
+
+<section class="home-section">
+
+<div class="home-section__head">
+  <span class="home-section__icon">🚀</span>
+  <div>
+    <h2 class="home-section__title">核心功能一览</h2>
+    <p class="home-section__desc">把繁琐的流程交给脚本，你只需要确认设置无误。</p>
   </div>
 </div>
 
-## 下载方式
+<div class="home-grid">
 
-<div class="custom-home-download-grid">
-  <a href="https://pan.quark.cn/s/bbcc17bcce22" target="_blank" class="custom-home-download-btn quark">
-    <span class="icon">☁️</span>
-    <span class="text">夸克网盘</span>
-  </a>
-  <a href="https://pan.xunlei.com/s/VOvtzs6dbiSGyNE41Fk5ytgVA1?pwd=tct2#" target="_blank" class="custom-home-download-btn xunlei">
-    <span class="icon">⚡</span>
-    <span class="text">迅雷网盘</span>
-  </a>
+<FeatureCard icon="⏰" title="定时自动刷课" tag="效率" accent="brand">
+支持调节播放倍速（最高 16 倍速），并可自主设定开始与结束刷课的时间，到点自动运行。
+</FeatureCard>
+
+<FeatureCard icon="🛡️" title="跳过人脸与全能自动化" tag="自动化" accent="brand">
+所有需要人脸认证的环节均可自动跳过。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。
+</FeatureCard>
+
+<FeatureCard icon="📍" title="任意地点自动签到" tag="签到" accent="cyan">
+支持定位签到与普通签到，无需手动操作，打破地理限制，方便快捷。
+</FeatureCard>
+
+<FeatureCard icon="🔗" title="连续刷多门课程" tag="批量" accent="cyan">
+支持最多连续刷 3 门课程，一门刷完后无需手动切换下一科，全程自动操作。
+</FeatureCard>
+
+<FeatureCard icon="🖥️" title="同时刷多门课程" tag="进阶" accent="amber">
+支持同时刷一个账号下的 3 门课程，只需在设置中打开“多端学习”。<strong>除非特别紧急，一般不建议开启。</strong>
+</FeatureCard>
+
+<FeatureCard icon="🧠" title="智能刷题与作业" tag="AI" accent="violet">
+已支持使用 DeepSeek 进行搜题，也可自动完成作业 —— 只需在设置中配置好 DeepSeek API 密钥。
+</FeatureCard>
+
+<FeatureCard icon="📊" title="进度查看与可视化控制" tag="可视化" accent="violet">
+主页点击“刷课记录”即可实时查看学习进度；customtkinter 搭建的可视化窗口用于控制程序运行与输出信息。
+</FeatureCard>
+
+</div>
+</section>
+
+<section class="home-section">
+
+<div class="home-section__head">
+  <span class="home-section__icon">⬇️</span>
+  <div>
+    <h2 class="home-section__title">下载方式</h2>
+    <p class="home-section__desc">选择任意渠道获取最新版本，建议下载后核对文件完整性。</p>
+  </div>
 </div>
 
-## 📖 从哪里开始？
+<DownloadGrid>
+  <DownloadButton
+    href="https://pan.quark.cn/s/bbcc17bcce22"
+    icon="☁️"
+    title="夸克网盘"
+    desc="无需登录，链接长期有效"
+    tone="blue"
+  />
+  <DownloadButton
+    href="https://pan.xunlei.com/s/VOvtzs6dbiSGyNE41Fk5ytgVA1?pwd=tct2#"
+    icon="⚡"
+    title="迅雷网盘"
+    desc="提取码 tct2"
+    tone="orange"
+  />
+  <DownloadButton
+    href="https://github.com/Mortal004/Xuexitong_shuake/releases/"
+    icon="🐙"
+    title="GitHub Releases"
+    desc="开源仓库，可查看历史版本"
+    tone="dark"
+  />
+</DownloadGrid>
+</section>
 
-- 第一次使用，请先读 [前言](/guide/preface) 和 [使用教程](/guide/usage)
-- 如果开始刷课报浏览器相关错误，请看 [如何安装正确的驱动](/guide/driver)
-- 程序弹窗报错，请看 [报错了该怎么办](/guide/faq)
-- 想升级版本，请看 [更新](/guide/update)
-- 使用前请阅读 [声明](/guide/statement)
+<section class="home-section">
 
+<div class="home-section__head">
+  <span class="home-section__icon">🧭</span>
+  <div>
+    <h2 class="home-section__title">三步上手</h2>
+    <p class="home-section__desc">第一次使用，按这个顺序走一遍即可正常刷课。</p>
+  </div>
+</div>
+
+<div class="home-steps">
+  <div class="home-step">
+    <span class="home-step__num">1</span>
+    <h3 class="home-step__title">下载并解压脚本</h3>
+    <p class="home-step__desc">从上方任意网盘或 GitHub Releases 下载压缩包，解压到不含中文的目录。</p>
+  </div>
+  <div class="home-step">
+    <span class="home-step__num">2</span>
+    <h3 class="home-step__title">填写账号与设置</h3>
+    <p class="home-step__desc">双击 <code>start</code> 运行，阅读用户须知后填写学习通账号密码、课程名称与功能选项，最后<strong>务必点击保存</strong>。</p>
+  </div>
+  <div class="home-step">
+    <span class="home-step__num">3</span>
+    <h3 class="home-step__title">回到主页开始刷课</h3>
+    <p class="home-step__desc">脚本会自动打开浏览器登录并开始刷课。若提示浏览器相关报错，请看 <a href="/xuexitong-tutorial/guide/driver">驱动安装</a>。</p>
+  </div>
+</div>
+</section>
+
+<section class="home-section">
+
+<div class="home-section__head">
+  <span class="home-section__icon">📖</span>
+  <div>
+    <h2 class="home-section__title">从哪里开始？</h2>
+    <p class="home-section__desc">按照你的当前状态，选择对应的章节。</p>
+  </div>
+</div>
+
+<div class="home-links">
+  <a class="home-link" href="/xuexitong-tutorial/guide/preface">
+    <span class="home-link__icon">✍️</span>
+    <span class="home-link__body">
+      <span class="home-link__title">第一次使用</span>
+      <span class="home-link__desc">先读前言，了解脚本的定位与作者说明</span>
+    </span>
+  </a>
+  <a class="home-link" href="/xuexitong-tutorial/guide/usage">
+    <span class="home-link__icon">🎯</span>
+    <span class="home-link__body">
+      <span class="home-link__title">完整使用教程</span>
+      <span class="home-link__desc">逐项说明设置页面的每一项配置</span>
+    </span>
+  </a>
+  <a class="home-link" href="/xuexitong-tutorial/guide/driver">
+    <span class="home-link__icon">🧩</span>
+    <span class="home-link__body">
+      <span class="home-link__title">浏览器报错</span>
+      <span class="home-link__desc">Edge / Chrome 驱动下载与配置方法</span>
+    </span>
+  </a>
+  <a class="home-link" href="/xuexitong-tutorial/guide/faq">
+    <span class="home-link__icon">🛠️</span>
+    <span class="home-link__body">
+      <span class="home-link__title">程序弹窗报错</span>
+      <span class="home-link__desc">四种排查方法，逐一尝试</span>
+    </span>
+  </a>
+  <a class="home-link" href="/xuexitong-tutorial/guide/update">
+    <span class="home-link__icon">🔄</span>
+    <span class="home-link__body">
+      <span class="home-link__title">想升级版本</span>
+      <span class="home-link__desc">四个更新渠道与脚本内检查更新</span>
+    </span>
+  </a>
+  <a class="home-link" href="/xuexitong-tutorial/guide/statement">
+    <span class="home-link__icon">📢</span>
+    <span class="home-link__body">
+      <span class="home-link__title">使用前必读</span>
+      <span class="home-link__desc">声明与责任说明，请遵守学校规定</span>
+    </span>
+  </a>
+</div>
+</section>
+
+<section class="home-cta">
+  <h2 class="home-cta__title">准备好了吗？</h2>
+  <p class="home-cta__desc">强烈建议先花 5 分钟读完使用教程，能避免绝大多数配置问题。</p>
+  <div class="home-cta__actions">
+    <a class="home-cta__btn primary" href="/xuexitong-tutorial/guide/usage">立即开始使用教程</a>
+    <a class="home-cta__btn ghost" href="https://github.com/Mortal004/Xuexitong_shuake" target="_blank" rel="noreferrer">给项目点个 Star ⭐</a>
+  </div>
+</section>
+
+<div class="visitor-section">
 <VisitorCounter />
+</div>
 
-<style>
-/* 功能卡片网格布局 */
-.custom-home-feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-.custom-home-feature-card {
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 20px;
-  background-color: var(--vp-c-bg-soft);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.custom-home-feature-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(66, 184, 131, 0.15);
-  border-color: var(--vp-c-brand-1);
-}
-.custom-home-feature-card h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.1em;
-  color: var(--vp-c-text-1);
-}
-.custom-home-feature-card p {
-  margin: 0;
-  font-size: 0.95em;
-  color: var(--vp-c-text-2);
-  line-height: 1.6;
-}
-.custom-home-warning {
-  color: #e6a23c;
-  font-size: 0.9em;
-}
-
-/* 下载按钮网格布局 */
-.custom-home-download-grid {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-.custom-home-download-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  border: 1px solid transparent;
-  color: #fff;
-}
-.custom-home-download-btn.github {
-  background-color: #24292e;
-}
-.custom-home-download-btn.github:hover {
-  background-color: #1a1e22;
-}
-.custom-home-download-btn.quark {
-  background-color: #1677ff;
-}
-.custom-home-download-btn.quark:hover {
-  background-color: #0958d9;
-}
-.custom-home-download-btn.xunlei {
-  background-color: #ff5722;
-}
-.custom-home-download-btn.xunlei:hover {
-  background-color: #e64a19;
-}
-.custom-home-download-btn .icon {
-  font-size: 1.2em;
-}
-</style>
+</div>
