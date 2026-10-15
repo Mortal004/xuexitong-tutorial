@@ -1,0 +1,372 @@
+/* ==========================================================================
+   刷课教程 · 首页 / 页面级扩展样式
+   依赖 custom.css 中的设计令牌（--vp-x-*）
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 首页区块结构
+   -------------------------------------------------------------------------- */
+.custom-home .home-section {
+  margin: 64px 0;
+}
+
+.custom-home .home-section__head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.custom-home .home-section__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 19px;
+  border-radius: 12px;
+  background: var(--vp-c-brand-soft);
+  border: 1px solid var(--vp-x-border-brand);
+}
+
+.custom-home .home-section__title {
+  margin: 0;
+  font-size: 1.34rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--vp-c-text-1);
+}
+
+.custom-home .home-section__desc {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--vp-c-text-2);
+}
+
+/* 覆盖 vp-doc h2 的竖条装饰（首页区块自带图标） */
+.custom-home .home-section .home-section__title::before {
+  display: none;
+}
+
+.custom-home .home-section > *:not(.home-grid):not(.home-section__head) {
+  margin-top: 16px;
+}
+
+/* --------------------------------------------------------------------------
+   2. 功能卡片网格
+   -------------------------------------------------------------------------- */
+.custom-home .home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+}
+
+/* --------------------------------------------------------------------------
+   3. 快速导航卡片
+   -------------------------------------------------------------------------- */
+.custom-home .home-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.custom-home .home-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 15px 17px;
+  border-radius: var(--vp-x-radius);
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  text-decoration: none !important;
+  color: var(--vp-c-text-1) !important;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease,
+    box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.custom-home .home-link:hover {
+  transform: translateY(-3px);
+  border-color: var(--vp-x-border-brand);
+  background: var(--vp-c-brand-soft);
+  box-shadow: var(--vp-x-shadow-brand);
+}
+
+.custom-home .home-link__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  border-radius: 11px;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.custom-home .home-link__body {
+  min-width: 0;
+}
+
+.custom-home .home-link__title {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 620;
+}
+
+.custom-home .home-link__desc {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-3);
+}
+
+/* --------------------------------------------------------------------------
+   4. 三步上手
+   -------------------------------------------------------------------------- */
+.custom-home .home-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 22px;
+  counter-reset: step;
+}
+
+.custom-home .home-step {
+  position: relative;
+  padding: 22px 20px 20px;
+  border-radius: var(--vp-x-radius-lg);
+  border: 1px solid var(--vp-c-divider);
+  background: linear-gradient(180deg, var(--vp-c-bg-soft), var(--vp-c-bg));
+  overflow: hidden;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.28s ease,
+    box-shadow 0.28s ease;
+}
+
+.custom-home .home-step:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-x-border-brand);
+  box-shadow: var(--vp-x-shadow-brand);
+}
+
+.custom-home .home-step__num {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--vp-x-teal), var(--vp-c-brand-1));
+  box-shadow: 0 8px 18px -10px var(--vp-x-glow);
+}
+
+.custom-home .home-step__title {
+  margin: 0 0 7px;
+  font-size: 1rem;
+  font-weight: 650;
+  color: var(--vp-c-text-1);
+}
+
+.custom-home .home-step__desc {
+  margin: 0;
+  font-size: 0.87rem;
+  line-height: 1.68;
+  color: var(--vp-c-text-2);
+}
+
+.custom-home .home-step code {
+  font-size: 0.85em;
+}
+
+/* --------------------------------------------------------------------------
+   5. 底部 CTA 横幅
+   -------------------------------------------------------------------------- */
+.custom-home .home-cta {
+  position: relative;
+  overflow: hidden;
+  margin: 64px 0 24px;
+  padding: 38px 30px;
+  text-align: center;
+  border-radius: 22px;
+  border: 1px solid var(--vp-x-border-brand);
+  background:
+    radial-gradient(90% 140% at 50% 0%, var(--vp-c-brand-soft), transparent 65%),
+    var(--vp-c-bg-soft);
+}
+
+.custom-home .home-cta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--vp-x-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--vp-x-grid-line) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 70% 100% at 50% 50%, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 100% at 50% 50%, #000, transparent 75%);
+}
+
+.custom-home .home-cta__title {
+  position: relative;
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+}
+
+.custom-home .home-cta__desc {
+  position: relative;
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+
+.custom-home .home-cta__actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.custom-home .home-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 0 22px;
+  border-radius: 12px;
+  font-size: 14.5px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease,
+    background-color 0.22s ease, border-color 0.22s ease;
+}
+
+.custom-home .home-cta__btn:hover {
+  transform: translateY(-2px);
+}
+
+.custom-home .home-cta__btn.primary {
+  color: #fff !important;
+  background: linear-gradient(135deg, var(--vp-c-brand-2), var(--vp-c-brand-1) 60%, #14b8a6);
+  box-shadow: 0 12px 26px -14px var(--vp-x-glow);
+}
+
+.custom-home .home-cta__btn.ghost {
+  color: var(--vp-c-text-1) !important;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+}
+
+.custom-home .home-cta__btn.ghost:hover {
+  border-color: var(--vp-x-border-brand);
+  background: var(--vp-c-brand-soft);
+}
+
+/* --------------------------------------------------------------------------
+   6. 提示 / 免责条
+   -------------------------------------------------------------------------- */
+.custom-home .custom-home-warning {
+  display: inline-block;
+  color: #d97706;
+  font-weight: 600;
+}
+.dark .custom-home .custom-home-warning {
+  color: #fbbf24;
+}
+
+/* --------------------------------------------------------------------------
+   7. 文档页段落级辅助容器
+   -------------------------------------------------------------------------- */
+.vp-doc .x-anchor-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 22px 0 6px;
+  padding: 0;
+  list-style: none;
+}
+
+.vp-doc .x-anchor-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 13px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 999px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2) !important;
+  text-decoration: none !important;
+  transition: all 0.22s ease;
+}
+
+.vp-doc .x-anchor-nav a:hover {
+  color: var(--vp-c-brand-1) !important;
+  border-color: var(--vp-x-border-brand);
+  background: var(--vp-c-brand-soft);
+  transform: translateY(-1px);
+}
+
+/* 关键结论高亮段落 */
+.vp-doc .x-keyline {
+  margin: 22px 0;
+  padding: 16px 20px;
+  border-radius: var(--vp-x-radius);
+  border: 1px solid var(--vp-x-border-brand);
+  background:
+    linear-gradient(120deg, var(--vp-c-brand-soft), transparent 70%),
+    var(--vp-c-bg-soft);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--vp-c-text-1);
+}
+.vp-doc .x-keyline > :first-child {
+  margin-top: 0;
+}
+.vp-doc .x-keyline > :last-child {
+  margin-bottom: 0;
+}
+
+/* 图片画廊（报错截图等） */
+.vp-doc .x-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 24px 0;
+}
+.vp-doc .x-gallery img {
+  width: 100%;
+  margin: 0;
+  cursor: zoom-in;
+}
+
+/* --------------------------------------------------------------------------
+   8. 响应式
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .custom-home .home-section {
+    margin: 48px 0;
+  }
+  .custom-home .home-cta {
+    padding: 28px 20px;
+    border-radius: 18px;
+  }
+  .custom-home .home-cta__btn {
+    flex: 1 1 100%;
+  }
+  .custom-home .home-grid {
+    grid-template-columns: 1fr;
+  }
+}
