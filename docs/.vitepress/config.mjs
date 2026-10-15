@@ -22,6 +22,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
+      { text: '脚本下载', link: '/#下载方式' },
       { text: '使用教程', link: '/guide/usage' },
       { text: '驱动安装', link: '/guide/driver' },
       { text: '报错处理', link: '/guide/faq' },
