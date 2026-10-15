@@ -1,0 +1,14 @@
+# 依赖与本地环境
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# VitePress 本地缓存与构建日志
+docs/.vitepress/cache/
+build.log
+*.log
+
+# 临时文件
+.DS_Store
+Thumbs.db

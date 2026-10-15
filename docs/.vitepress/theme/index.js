@@ -1,6 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
-import './extras.css'
 
 import VisitorCounter from './components/VisitorCounter.vue'
 import HomeHero from './components/HomeHero.vue'
