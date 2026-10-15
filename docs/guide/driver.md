@@ -21,10 +21,10 @@
 ### 1.2 下载对应版本驱动
 
 然后在导航栏粘贴这个链接：
-![粘贴链接](/images/zhantielinks.png)
 ```text
 https://developer.microsoft.com/zh-tw/microsoft-edge/tools/webdriver?form=MA13KL#downloads
 ```
+![粘贴链接](/images/zhantielinks.png)
 
 按回车键进入到驱动下载网页，根据浏览器的版本号，并依照您的电脑系统（通常为 `x64`），点击对应的 `x64` 按钮即可开始下载。
 
@@ -79,4 +79,3 @@ https://googlechromelabs.github.io/chrome-for-testing/
 
 ---
 
-[上一章：使用教程 ←](/guide/usage) ｜ [下一章：报错了该怎么办 →](/guide/faq)

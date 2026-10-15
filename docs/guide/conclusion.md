@@ -2,7 +2,7 @@
 
 ## 1. 支持作者
 
-如果我的脚本对您有帮助，可以对我进行打赏，各位的支持就是我更新的最大动力。
+如果我的脚本对您有帮助，可以对我进行打赏，各位的支持就是我更新的最大动力。如果您不想赞助也没事，方便的话帮我在[GitHub 项目](https://github.com/Mortal004/Xuexitong_shuake) 上点个星标。
 
 ![打赏界面](/images/donate.png)
 
@@ -11,6 +11,8 @@
 如果您认为脚本还有需要改进的地方，或者有好的建议，欢迎您：
 
 - 将反馈内容发送至邮箱：`2022865286@qq.com`
+- 或在 [GitHub Issues](https://github.com/Mortal004/Xuexitong_shuake/issues) 中留言
+- 或在 [GitHub Discussion](https://github.com/Mortal004/Xuexitong_shuake/discussions) 中交流，不论是脚本的问题、建议、体验、评价都可可以在这分享，期待你的留言
 
 ## 3. 开源地址
 
@@ -20,8 +22,4 @@
 https://github.com/Mortal004/Xuexitong_shuake
 ```
 
-如果您也会 Python，也欢迎您通过 GitHub 提交您的代码（如果可以的话，麻烦点个星标）。
-
 ---
-
-[上一章：更新 ←](/guide/update) ｜ [下一章：声明 →](/guide/statement)
