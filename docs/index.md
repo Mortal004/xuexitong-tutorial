@@ -74,8 +74,9 @@ features:
     <h3>📊 进度查看与可视化控制</h3>
     <p>主页点击“刷课记录”即可实时查看课程学习进度。借助 customtkinter 搭建可视化窗口，用于控制程序运行和显示输出信息。</p>
   </div>
+</div>
 
-## 下载方式
+## 📥 下载方式
 
 <div class="custom-home-download-grid">
   <a href="https://pan.quark.cn/s/bbcc17bcce22" target="_blank" class="custom-home-download-btn quark">
