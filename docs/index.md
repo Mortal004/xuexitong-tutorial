@@ -76,7 +76,7 @@ features:
   </div>
 </div>
 
-## 📥 下载方式
+## 下载方式
 
 <div class="custom-home-download-grid">
   <a href="https://pan.quark.cn/s/bbcc17bcce22" target="_blank" class="custom-home-download-btn quark">
