@@ -10,7 +10,7 @@ titleTemplate: 刷课脚本使用教程
   badge="基于 Python + Selenium 的学习通自动化辅助"
   title="刷课脚本使用教程"
   subtitle="把重复的刷课流程交给程序，把时间留给真正值得投入的学习。"
-  tagline="从启动程序、配置驱动到报错排查，一份写给非技术用户的完整中文文档。"
+  tagline="虽然网页AI味重是重了点，但脚本用着不烧心"
   :actions="[
     { text: '开始阅读', link: '/xuexitong-tutorial/guide/preface', theme: 'brand' },
     { text: '使用教程', link: '/xuexitong-tutorial/guide/usage', theme: 'alt' },
