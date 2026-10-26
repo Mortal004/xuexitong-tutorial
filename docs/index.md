@@ -74,7 +74,7 @@ titleTemplate: 刷课脚本使用教程
 
 <DownloadGrid>
   <DownloadButton
-    href="https://pan.quark.cn/s/bbcc17bcce22"
+    href="https://pan.quark.cn/s/a89bbc8691f2"
     icon="☁️"
     title="夸克网盘"
     desc="无需登录，链接长期有效"
@@ -88,10 +88,10 @@ titleTemplate: 刷课脚本使用教程
     tone="orange"
   />
   <DownloadButton
-    href="https://github.com/Mortal004/Xuexitong_shuake/releases/"
+    href="https://pan.baidu.com/s/5TvAVKIajPhOKTGd9qWDfUw"
     icon="🐙"
-    title="GitHub Releases"
-    desc="开源仓库，可查看历史版本"
+    title="百度网盘"
+    desc="里面是安装包，体积小"
     tone="dark"
   />
 </DownloadGrid>

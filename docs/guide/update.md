@@ -19,7 +19,7 @@ https://github.com/Mortal004/Xuexitong_shuake/releases/
 国内访问速度较快，适合大多数同学。
 
 ```text
-https://pan.quark.cn/s/bbcc17bcce22
+https://pan.quark.cn/s/a89bbc8691f2
 ```
 
 ## 3. 迅雷网盘
