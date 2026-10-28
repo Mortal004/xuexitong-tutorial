@@ -191,8 +191,4 @@ titleTemplate: 刷课脚本使用教程
   </div>
 </section>
 
-<div class="visitor-section">
-<VisitorCounter />
-</div>
-
 </div>
