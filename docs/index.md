@@ -43,6 +43,10 @@ titleTemplate: 刷课脚本使用教程
 支持定位签到与普通签到，无需手动操作，打破地理限制，方便快捷。
 </FeatureCard>
 
+<FeatureCard icon="📫" title="邮箱通知" tag="通知" accent="violet">
+开启后开始刷课、完成章节、课程结束与运行报错自动发邮件，附课程名称与进度；多端模式合并开始提醒，按课程分别报错通知。
+</FeatureCard>
+
 <FeatureCard icon="🔗" title="连续刷多门课程" tag="批量" accent="cyan">
 支持最多连续刷 3 门课程，一门刷完后无需手动切换下一科，全程自动操作。
 </FeatureCard>
