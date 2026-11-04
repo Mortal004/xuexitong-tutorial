@@ -19,15 +19,15 @@ https://github.com/Mortal004/Xuexitong_shuake/releases/
 国内访问速度较快，适合大多数同学。
 
 ```text
-https://pan.quark.cn/s/a89bbc8691f2
+https://pan.quark.cn/s/8ff80d48d6c1
 ```
 
 ## 3. 迅雷网盘
 
-备用下载渠道，提取码为 `tct2`。
+备用下载渠道。
 
 ```text
-https://pan.xunlei.com/s/VOvtzs6dbiSGyNE41Fk5ytgVA1?pwd=tct2#
+https://pan.xunlei.com/s/VP5_9N46J5V-tJUBCXXpVEaLA1?pwd=9egr#
 ```
 
 ## 4. 脚本内检查更新
