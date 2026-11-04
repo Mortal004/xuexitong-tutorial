@@ -39,8 +39,12 @@ titleTemplate: 刷课脚本使用教程
 所有需要人脸认证的环节均可自动跳过。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。
 </FeatureCard>
 
-<FeatureCard icon="📍" title="任意地点自动签到" tag="签到" accent="cyan">
-支持定位签到与普通签到，无需手动操作，打破地理限制，方便快捷。
+<FeatureCard icon="📍" title="复习模式" tag="复习" accent="cyan">
+可以刷学习时长及次数
+</FeatureCard>
+
+<FeatureCard icon="📫" title="邮箱通知" tag="通知" accent="violet">
+开启后开始刷课、完成章节、课程结束与运行报错自动发邮件，附课程名称与进度；多端模式合并开始提醒，按课程分别报错通知。
 </FeatureCard>
 
 <FeatureCard icon="📫" title="邮箱通知" tag="通知" accent="violet">
@@ -78,21 +82,21 @@ titleTemplate: 刷课脚本使用教程
 
 <DownloadGrid>
   <DownloadButton
-    href="https://pan.quark.cn/s/a89bbc8691f2"
+    href="https://pan.quark.cn/s/8ff80d48d6c1"
     icon="☁️"
     title="夸克网盘"
     desc="无需登录，链接长期有效"
     tone="blue"
   />
   <DownloadButton
-    href="https://pan.xunlei.com/s/VOvtzs6dbiSGyNE41Fk5ytgVA1?pwd=tct2#"
+    href="https://pan.xunlei.com/s/VP5_9N46J5V-tJUBCXXpVEaLA1?pwd=9egr#"
     icon="⚡"
     title="迅雷网盘"
     desc="提取码 tct2"
     tone="orange"
   />
   <DownloadButton
-    href="https://pan.baidu.com/s/5TvAVKIajPhOKTGd9qWDfUw"
+    href="https://pan.baidu.com/s/1sBJDAzHq6dUqwrxLsRqMtA?pwd=1234"
     icon="🐙"
     title="百度网盘"
     desc="里面是安装包，体积小"
