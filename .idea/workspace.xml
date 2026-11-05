@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6102184-7f24-47cc-b788-00f9ceaf872a" name="更改" comment="更新" />
+    <list default="true" id="a6102184-7f24-47cc-b788-00f9ceaf872a" name="更改" comment="更新">
+      <change afterPath="$PROJECT_DIR$/docs/public/images/blocked6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mortal004/xuexitong-tutorial.git",
+    "url": "https://github.com/Mortal004/xuexitong-tutorial",
     "accountId": "bd2c3555-0717-494e-b042-14b54b4e67b7"
   }
 }]]></component>
@@ -40,12 +44,14 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/HUAWEI/xuexitong-tutorial/docs/public/images",
+    "last_opened_file_path": "D:/xuexitong/xuexitong-tutorial/docs/public/images",
     "settings.editor.selected.configurable": "ord.dev.code.tool.settings.CodeAssistSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xuexitong\xuexitong-tutorial\docs\public\images" />
+      <recent name="D:\xuexitong\xuexitong-tutorial\docs\guide" />
       <recent name="C:\Users\HUAWEI\xuexitong-tutorial\docs\public\images" />
       <recent name="C:\Users\HUAWEI\xuexitong-tutorial\docs\guide" />
     </key>

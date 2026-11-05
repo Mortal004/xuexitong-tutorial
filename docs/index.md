@@ -39,7 +39,11 @@ titleTemplate: 刷课脚本使用教程
 所有需要人脸认证的环节均可自动跳过。还支持自动刷直播、自动播放音频、自动回复讨论、自动播放 PPT。
 </FeatureCard>
 
-<FeatureCard icon="📍" title="复习模式" tag="复习" accent="cyan">
+<FeatureCard icon="📍" title="任意地点自动签到" tag="签到" accent="cyan">
+支持定位签到与普通签到，无需手动操作，打破地理限制，方便快捷。
+</FeatureCard>
+
+<FeatureCard icon="📚" title="复习模式" tag="复习" accent="cyan">
 可以刷学习时长及次数
 </FeatureCard>
 
